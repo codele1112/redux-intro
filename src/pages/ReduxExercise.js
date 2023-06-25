@@ -290,9 +290,6 @@ const CartProductTwo = (props) => {
 };
 
 const Store = (props) => {
-  // Step 1
-  // use useSelector() to get the data of products and cart in the store
-  // pass {cart, product} to the src attribute of the component <ReactJson/>
   const products = useSelector((state) => state.product);
   const cart = useSelector((state) => state.cart);
   return (
